@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RAILINCA BAZAR SRL</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background:#fff;
+      color:#111;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      overflow-x:hidden;
+    }
+
+    .hero{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      text-align:center;
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:72px;
+      font-weight:200;
+      letter-spacing:10px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      font-size:18px;
+      color:#666;
+      letter-spacing:2px;
+      margin-bottom:40px;
+    }
+
+    .line{
+      width:120px;
+      height:1px;
+      background:#111;
+      margin:25px auto;
+    }
+
+    .rating{
+      border:1px solid #111;
+      padding:12px 30px;
+      font-size:14px;
+      letter-spacing:3px;
+    }
+
+    section{
+      max-width:1100px;
+      margin:auto;
+      padding:100px 40px;
+    }
+
+    h2{
+      font-size:36px;
+      font-weight:300;
+      margin-bottom:50px;
+      letter-spacing:4px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:30px;
+    }
+
+    .card{
+      border:1px solid #ddd;
+      padding:40px;
+      transition:0.4s;
+    }
+
+    .card:hover{
+      background:#111;
+      color:#fff;
+      transform:translateY(-5px);
+    }
+
+    .card h3{
+      font-weight:400;
+      margin-bottom:20px;
+      letter-spacing:2px;
+    }
+
+    .card p{
+      color:inherit;
+      line-height:1.8;
+    }
+
+    .program p{
+      margin-bottom:12px;
+    }
+
+    footer{
+      border-top:1px solid #eee;
+      text-align:center;
+      padding:60px 20px;
+      color:#777;
+      font-size:14px;
+      letter-spacing:1px;
+    }
+
+    .facebook-text{
+      margin-top:40px;
+      margin-bottom:25px;
+      font-size:14px;
+      letter-spacing:2px;
+      color:#666;
+    }
+
+    .facebook-btn{
+      text-decoration:none;
+      color:#111;
+      border:1px solid #111;
+      padding:14px 35px;
+      letter-spacing:3px;
+      font-size:14px;
+      transition:0.3s;
+      display:inline-block;
+    }
+
+    .facebook-btn:hover{
+      background:#111;
+      color:#fff;
+    }
+
+    @media(max-width:768px){
+
+      .hero h1{
+        font-size:42px;
+        letter-spacing:5px;
+      }
+
+      section{
+        padding:70px 25px;
+      }
+
+      h2{
+        font-size:28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <h1>RAILINCA BAZAR</h1>
+
+    <div class="line"></div>
+
+    <p>SECOND HAND STORE • GALAȚI</p>
+
+    <div class="rating">
+      ★ 5.0 • 22 REVIEWS
+    </div>
+  </div>
+
+  <section>
+    <h2>DESPRE NOI</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>SIMPLU & ELEGANT</h3>
+
+        <p>
+          RAILINCA BAZAR SRL oferă o experiență modernă și elegantă
+          într-un spațiu dedicat produselor second hand atent selectate.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>CALITATE</h3>
+
+        <p>
+          Punem accent pe produse curate, accesibile și o experiență
+          plăcută pentru fiecare client care ne trece pragul.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>LOCAȚIE & CONTACT</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>ADRESĂ</h3>
+
+        <p>
+          Strada 1 Decembrie 1918<br>
+          800021 Galați
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>TELEFON</h3>
+
+        <p>
+          0711 977 316
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>PROGRAM</h2>
+
+    <div class="card program">
+      <p>Monday — 9:00 AM – 6:00 PM</p>
+      <p>Tuesday — 9:00 AM – 6:00 PM</p>
+      <p>Wednesday — 9:00 AM – 6:00 PM</p>
+      <p>Thursday — 9:00 AM – 6:00 PM</p>
+      <p>Friday — 9:00 AM – 6:00 PM</p>
+      <p>Saturday — 9:00 AM – 1:00 PM</p>
+      <p>Sunday — Closed</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 RAILINCA BAZAR SRL • ALL RIGHTS RESERVED
+
+    <p class="facebook-text">
+      Pentru mai multe detalii vizitați pagina de Facebook
+    </p>
+
+    <a href="https://www.facebook.com/profile.php?id=61566572661877"
+       target="_blank"
+       class="facebook-btn">
+       FACEBOOK
+    </a>
+
+  </footer>
+
+</body>
+</html>
